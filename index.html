@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <main class="container">
+        <section class="card">
+
+            <h1 class="titulo">Tabuada da Jessica</h1>
+            
+            <div class="operacao">
+                <h2>Somar</h2>  
+                <input name="preenchido" type="number" id="numeroUmSomar" placeholder="Digite um número">
+                <input name="preenchido" type="number" id="numeroDoisSomar" placeholder="Digite um número">
+                <button onclick="somar()"><i class="fa-solid fa-equals"></i></button>
+                <p class="resultado" id="resultadoSomar"></p>
+            </div>
+
+            <div class="operacao">
+                <h2>Subtrair</h2>
+                <input name="preenchido" type="number" id="numeroUmSubtrair" placeholder="Digite um número">
+                <input name="preenchido" type="number" id="numeroDoisSubtrair" placeholder="Digite um número">
+                <button onclick="subtrair()"><i class="fa-solid fa-equals"></i></button>
+                <p class="resultado" id="resultadoSubtrair"></p>                
+            </div>
+
+            <div class="operacao">
+                <h2>Multiplicar</h2>
+                <input name="preenchido" type="number" id="numeroUmMultiplicar" placeholder="Digite um número">
+                <input name="preenchido" type="number" id="numeroDoisMultiplicar" placeholder="Digite um número">
+                <button onclick="multiplicar()"><i class="fa-solid fa-equals"></i></button>
+                <p class="resultado" id="resultadoMultiplicar"></p>
+            </div>
+
+            <div class="operacao">
+                <h2>Dividir</h2>
+                <input name="preenchido" type="number" id="numeroUmDividir" placeholder="Digite um número">
+                <input name="preenchido" type="number" id="numeroDoisDividir" placeholder="Digite um número">
+                <button onclick="dividir()"><i class="fa-solid fa-equals"></i></button>
+                <p class="resultado" id="resultadoDividir"></p>
+
+            </div>
+
+            
+            
+        </section>
+    </main>
+
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
